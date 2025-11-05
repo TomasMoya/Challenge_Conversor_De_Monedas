@@ -35,7 +35,7 @@ public class ConsultaAPI {
             this.moneda2 = moneda2;
         }
 
-    public String getMoneda1() {
+        public String getMoneda1() {
             return moneda1;
         }
 

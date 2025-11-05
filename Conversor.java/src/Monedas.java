@@ -14,6 +14,14 @@ public class Monedas {
         this.cantidad = cantidad;
     }
 
+    public String getMonedaBase() {
+        return monedaBase;
+    }
+
+    public String getMonedaACalcular() {
+        return monedaACalcular;
+    }
+
     public void calcularConversion(){
         conversion = (int) (this.cantidad * this.valorUnitario);
     }
